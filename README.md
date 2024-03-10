@@ -19,13 +19,23 @@ python3 game.py
 
 ### Из Docker
 
-#### Собери Docker образ
+#### Из GitHub Container registry
+
+##### Загрузи и запусти Docker контейнер
+```
+docker run -ti ghcr.io/mmmylnikov/tictactoe:1.0.0
+```
+
+#### Для самостоятельной сборки
+
+
+##### Собери Docker образ
 
 ```
-docker build --tag tictactoe:v.1.0.0 .
+docker build --tag tictactoe:1.0.0 .
 ```
 
-#### Запусти Docker контейнер
+##### Запусти Docker контейнер
 ```
-docker run -ti  tictactoe:v.1.0.0
+docker run -ti  tictactoe:1.0.0
 ```
