@@ -6,3 +6,36 @@
 компьютер делает случайный ход,
 кто играет крестиками выбирается случайно,
 если кто-то выиграл – это выводится на экран.
+
+
+## Запуск TicTacToe
+
+### Из командной строки
+
+```
+python3 game.py
+```
+
+
+### Из Docker
+
+#### Из GitHub Container registry
+
+##### Загрузи и запусти Docker контейнер
+```
+docker run -ti ghcr.io/mmmylnikov/tictactoe:1.0.0
+```
+
+#### Для самостоятельной сборки
+
+
+##### Собери Docker образ
+
+```
+docker build --tag tictactoe:1.0.0 .
+```
+
+##### Запусти Docker контейнер
+```
+docker run -ti  tictactoe:1.0.0
+```
