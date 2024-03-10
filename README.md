@@ -22,7 +22,7 @@ python3 game.py
 #### Собери Docker образ
 
 ```
-docker build --tag tictactoe:v.1.0.0
+docker build --tag tictactoe:v.1.0.0 .
 ```
 
 #### Запусти Docker контейнер
